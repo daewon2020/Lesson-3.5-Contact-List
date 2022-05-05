@@ -24,7 +24,6 @@ struct PersonDetails: View {
             ListInfoRow(image: "mail", data: "\(person.email)")
         }
         .navigationTitle("\(person.name) \(person.surname)")
-        .padding()
     }
 }
 
