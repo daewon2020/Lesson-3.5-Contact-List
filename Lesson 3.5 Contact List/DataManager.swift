@@ -22,5 +22,5 @@ class DataManager {
     
     let domains = ["google.com", "mail.ru", "ya.ru", "vc.ru", "apple.com"]
     
-    init() { }
+    private init() { }
 }
