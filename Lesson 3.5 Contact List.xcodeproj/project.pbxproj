@@ -11,6 +11,12 @@
 		22AA3BE82822F90700AFF363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AA3BE72822F90700AFF363 /* ContentView.swift */; };
 		22AA3BEA2822F90800AFF363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AA3BE92822F90800AFF363 /* Assets.xcassets */; };
 		22AA3BED2822F90900AFF363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AA3BEC2822F90900AFF363 /* Preview Assets.xcassets */; };
+		22AA3BF42822F96F00AFF363 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AA3BF32822F96F00AFF363 /* DataManager.swift */; };
+		22AA3BF62822FAD400AFF363 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AA3BF52822FAD400AFF363 /* PersonModel.swift */; };
+		22AA3BFA2823090500AFF363 /* PersonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AA3BF92823090500AFF363 /* PersonDetails.swift */; };
+		22AB88CC2823A383004EAA97 /* ListInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB88CB2823A383004EAA97 /* ListInfoRow.swift */; };
+		22BC79272823F5640020DFC1 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79262823F5640020DFC1 /* ContactList.swift */; };
+		22BC79292823F5FA0020DFC1 /* ExtendedContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79282823F5FA0020DFC1 /* ExtendedContactList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		22AA3BE72822F90700AFF363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22AA3BE92822F90800AFF363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22AA3BEC2822F90900AFF363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22AA3BF32822F96F00AFF363 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		22AA3BF52822FAD400AFF363 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		22AA3BF92823090500AFF363 /* PersonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetails.swift; sourceTree = "<group>"; };
+		22AB88CB2823A383004EAA97 /* ListInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInfoRow.swift; sourceTree = "<group>"; };
+		22BC79262823F5640020DFC1 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		22BC79282823F5FA0020DFC1 /* ExtendedContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedContactList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				22AA3BE52822F90700AFF363 /* Lesson_3_5_Contact_ListApp.swift */,
+				22AA3BF52822FAD400AFF363 /* PersonModel.swift */,
+				22AA3BF32822F96F00AFF363 /* DataManager.swift */,
 				22AA3BE72822F90700AFF363 /* ContentView.swift */,
+				22BC79262823F5640020DFC1 /* ContactList.swift */,
+				22AA3BF92823090500AFF363 /* PersonDetails.swift */,
+				22AB88CB2823A383004EAA97 /* ListInfoRow.swift */,
+				22BC79282823F5FA0020DFC1 /* ExtendedContactList.swift */,
 				22AA3BE92822F90800AFF363 /* Assets.xcassets */,
 				22AA3BEB2822F90900AFF363 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22AA3BF62822FAD400AFF363 /* PersonModel.swift in Sources */,
 				22AA3BE82822F90700AFF363 /* ContentView.swift in Sources */,
+				22AA3BF42822F96F00AFF363 /* DataManager.swift in Sources */,
 				22AA3BE62822F90700AFF363 /* Lesson_3_5_Contact_ListApp.swift in Sources */,
+				22BC79272823F5640020DFC1 /* ContactList.swift in Sources */,
+				22BC79292823F5FA0020DFC1 /* ExtendedContactList.swift in Sources */,
+				22AB88CC2823A383004EAA97 /* ListInfoRow.swift in Sources */,
+				22AA3BFA2823090500AFF363 /* PersonDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
