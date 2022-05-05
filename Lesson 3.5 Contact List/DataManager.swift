@@ -8,6 +8,8 @@
 import Foundation
 
 class DataManager {
+    static var shared = DataManager()
+    
     let names = [
             "Natalia", "Masha", "Yudif", "Miron", "Dominika",
             "Boleslav", "Liudmila", "Filat", "Vladimir", "Anatoliy"
@@ -20,4 +22,5 @@ class DataManager {
     
     let domains = ["google.com", "mail.ru", "ya.ru", "vc.ru", "apple.com"]
     
+    init() { }
 }

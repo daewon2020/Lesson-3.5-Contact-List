@@ -25,9 +25,8 @@ struct Person: Identifiable {
     }
     
     static func getPerson() -> Person? {
-        let dataManager = DataManager()
-        guard let name = dataManager.names.randomElement() else { return nil}
-        guard let surname = dataManager.surnames.randomElement() else { return nil}
+        guard let name = DataManager.shared.names.randomElement() else { return nil}
+        guard let surname = DataManager.shared.surnames.randomElement() else { return nil}
         
         var phoneNumber: String = "+7"
         for _ in 0...9 {
@@ -35,7 +34,7 @@ struct Person: Identifiable {
             phoneNumber += "\(randomNumer)"
         }
         
-        let email = name + surname + "@" + (dataManager.domains.randomElement() ?? "")
+        let email = name + surname + "@" + (DataManager.shared.domains.randomElement() ?? "")
         return Person(name: name, surname: surname, email: email.lowercased(), phone: phoneNumber)
     }
     
