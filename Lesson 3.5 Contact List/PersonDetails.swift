@@ -11,17 +11,17 @@ struct PersonDetails: View {
     let person: Person!
     
     var body: some View {
-        VStack{
-            Image(systemName: "person")
-                .resizable()
-                .frame(width: 200, height: 200)
-                .padding(.bottom, 20)
-            
-            VStack(alignment: .leading, spacing: 15) {
-                ListInfoRow(image: "phone", data: "\(person.phone)")
-                ListInfoRow(image: "mail", data: "\(person.email)")
+        List {
+            HStack{
+                Spacer()
+                Image(systemName: "person")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .padding()
+                Spacer()
             }
-            Spacer()
+            ListInfoRow(image: "phone", data: "\(person.phone)")
+            ListInfoRow(image: "mail", data: "\(person.email)")
         }
         .navigationTitle("\(person.name) \(person.surname)")
         .padding()

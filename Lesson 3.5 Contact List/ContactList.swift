@@ -14,7 +14,7 @@ struct ContactList: View {
         NavigationView {
             List(persons) { person in
                 NavigationLink(destination: { PersonDetails(person: person) }) {
-                    ListInfoRow(image: "person", data: "\(person.name) \(person.surname)")
+                    ListInfoRow(image: "person", data: person.fullName)
                 }
             }.navigationTitle("Contact List")
         }
